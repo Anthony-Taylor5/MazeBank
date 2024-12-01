@@ -1,0 +1,142 @@
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: rgb(255, 255, 245);
+
+        }
+
+        .flexContainer{
+            display: flex;
+            justify-content: left;
+            align-items: flex-start;
+
+            
+            
+        }
+        .sideMarginsContainer{
+            width: 250px;        /* Set the width of the container */
+            height: 930px;       /* Set the height of the container */
+            overflow: hidden;    /* Hide parts of the image that overflow the container */
+            vertical-align: top;
+            margin-top: 0px;
+            display: flex;
+            
+        }
+
+        .sideMargins{
+            object-position: -3px; /* Align the image to the right to crop the left side */
+            width: 100%;        /* Make the image fill the container's width */
+            height: 99%;        /* Make the image fill the container's height */
+            object-fit: cover;   /* Crop and scale the image to fill the container */  
+            
+        }
+
+        .insidePage{
+            width:1000px;
+            height:99%;
+            vertical-align: top;
+            padding-top: 40px;
+            padding-left:50px;
+            padding-right: 80px;
+
+            display: inline-block;
+            justify-content: left;
+            align-items: flex-start;
+        }    
+
+        
+
+        .headerText, .welcomeText{
+            font-family: "Red Hat Text", sans-serif;
+            display: inline-block;
+            margin-left: 10px;
+            line-height: 1;
+            vertical-align: top;
+            padding-top: 5px;
+            font-weight: 500;
+        }
+        .welcomeText{
+            display: block;
+            font-size:30px;
+            padding: 0%;
+            margin:0px;
+            filter: blur(0.5px);
+        }
+        .centeredContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            margin: 0%;
+        }
+        
+        .bankTitleBold{
+            font-style: bold;
+            font-size: 50px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            filter: blur(0.5px);
+        }
+        .bankTitle{
+            font-size: 20px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            
+            filter: blur(0.5px);
+        }
+
+        .bankSymbol{
+            width: 71px;
+            height: 78px;
+            display: inline-block;
+        }
+        .rectangle2{
+            width: 100%;      
+            height: 5px;     
+            background-color: #c10000;  
+            margin-top: 10PX;         
+        }
+        .rectangle1{
+            width: 100%;      
+            height: 15px;     
+            background-color: #c10000;        
+            margin:0px;
+            vertical-align: top;
+              
+        }
+        
+        .welcomeTextContainer{
+          margin-top: 150px;
+          margin-bottom: 15px;
+        }
+        .nameContainer{
+            margin-bottom: 80px;
+        }
+
+        .viewButton{
+            font-weight: 520;
+            font-size: 27px;
+            background: linear-gradient(to bottom, #dc0000, #ab0000);
+            background-color:#c10000;
+            color:white;
+            filter: blur(0.6px);
+            width:423px;
+            height: 72px;
+            border-radius: 5px;
+            cursor: pointer;
+            border-width:3px ;
+            border-color: #740000;
+            border-style: solid;
+            transition: opacity 0.13s;
+        }
+
+        .viewButton:active{
+            opacity: 75%;
+        }
+
+        .createAccountLink{
+            margin:50px; 
+        }
+        
+    
